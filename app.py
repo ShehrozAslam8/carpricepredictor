@@ -1,25 +1,25 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
+# In[12]:
 
 
 #pip install streamlit
 
 
-# In[7]:
+# In[13]:
 
 
-#!pip install joblib
+get_ipython().system('pip install joblib')
 
 
-# In[8]:
+# In[14]:
 
 
 #!pip install --upgrade scikit-learn
 
 
-# In[9]:
+# In[15]:
 
 
 import streamlit as st
@@ -27,7 +27,7 @@ import joblib
 from joblib import load
 
 
-# In[10]:
+# In[16]:
 
 
 # Write the title of the application on the UI
@@ -63,4 +63,10 @@ if st.button("Predict Price"):
 
     # Display the result on the UI
     st.text("Predicted price of the car: " + str(predicted_price) + " Lakh INR")
+
+
+# In[ ]:
+
+
+
 
